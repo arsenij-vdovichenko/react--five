@@ -1,12 +1,15 @@
-
+import Title from './components/Title/Title'
+import Data from './components/data/Data'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-     
+     <Title/>
+
+     <Data/>
     </>
   )
 }
